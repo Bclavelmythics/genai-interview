@@ -2,7 +2,7 @@
 
 Generative AI focused interview problems
 
-##Prerequisites
+## Prerequisites
 Sign up on together.ai and obtain a API key
 Use python 3.11 and install requirements (pip install -r requirements.txt)
 
