@@ -8,10 +8,10 @@ Generative AI focused interview problems
 
 ## Problem 1 
 
-Create a script to chunk the provided documentation and embed the chunks into a chroma vector database. 
-Chunk the document in a way that best caputres important information from each section.
-Use the HuggingFaceEmbeddings model from Langchain.
-https://python.langchain.com/docs/integrations/providers/huggingface/#huggingfaceendpoint 
+* Create a script to chunk the provided documentation and embed the chunks into a chroma vector database. 
+* Chunk the document in a way that best caputres important information from each section.
+* Use the HuggingFaceEmbeddings model from Langchain.
+* https://python.langchain.com/docs/integrations/providers/huggingface/#huggingfaceendpoint 
 
 ## Problem 2
 * Add your vector database to the vectordb directory
