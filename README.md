@@ -5,7 +5,7 @@ Generative AI focused interview problems
 ## Prerequisites
 * Sign up on together.ai and obtain an API key
 * Use python 3.11 and install requirements (pip3.11 install -r requirements.txt)
-  * Bonus: use virtual environment
+  * Bonus: Use a virtual environment
 
 
 ## Problem 1 
