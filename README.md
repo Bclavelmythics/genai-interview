@@ -2,6 +2,10 @@
 
 Generative AI focused interview problems
 
+##Prerequisites
+Sign up on together.ai and obtain a API key
+Use python 3.11 and install requirements (pip install -r requirements.txt)
+
 ## Problem 1 
 
 Create a script to chunk the provided documentation and embed the chunks into a chroma vector database. 
@@ -20,4 +24,3 @@ Create a prompt template that guides the llm in responding to the users input.
 Attempt this only after completing problem 1 and 2 and if you have time.
 Modify the script so that the llm can maintain conversation history.
 
-a85b803f2f7e8fdb3d7681d77c6d399cd273d2bbebede92ba9e795a7ba730833
