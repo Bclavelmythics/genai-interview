@@ -13,7 +13,7 @@ Generative AI focused interview problems
 * Create a script to chunk the provided documentation and embed the chunks into a chroma vector database. 
 * Chunk the document in a way that best caputres important information from each section.
 * Use the HuggingFaceEmbeddings model from Langchain.
-  * https://python.langchain.com/docs/integrations/providers/huggingface/#huggingfaceendpoint 
+  * https://python.langchain.com/docs/integrations/providers/huggingface/#huggingfaceembeddings
 
 ## Problem 2: Add RAG Functionality to Application
 * To run application use `streamlit run app.py`
