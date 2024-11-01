@@ -1,6 +1,4 @@
 import streamlit as st
-from langchain.embeddings import HuggingFaceEmbeddings
-from langchain.vectorstores import Chroma
 from langchain.prompts import PromptTemplate
 from langchain.llms import Together
 from langchain.chains import LLMChain
