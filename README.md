@@ -10,8 +10,8 @@ Generative AI focused interview problems
 
 ## Problem 1: Create Vector database for RAG (Retrieval Augmented Generation) Functionality
 
-* Create a script to chunk the provided documentation and embed the chunks into a chroma vector database. 
-* Chunk the document in a way that best caputres important information from each section.
+* modify the python file in `load` to chunk the provided documentation and embed the chunks into a chroma vector database. 
+* Chunk the document in `docs` in a way that best captures important information from each section.
 * Use the HuggingFaceEmbeddings model from Langchain.
   * https://python.langchain.com/docs/integrations/providers/huggingface/#huggingfaceembeddings
 
