@@ -70,10 +70,7 @@ def main():
             else:
                 prompt = PromptTemplate(
                     template="""
-                    You are an AI assistant knowledgeable about Oracle Cloud Infrastructure (OCI) security services.
-                    Provide a general response to the following question about OCI security services.
-                    If you're not sure about specific details, provide general information about the topic.
-
+                    
                     Question: {question}
 
                     Answer:""",
