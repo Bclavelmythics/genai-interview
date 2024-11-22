@@ -13,10 +13,6 @@ Generative AI focused interview problems
      * `pip3.11 install langchain`
      * `pip3.11 install langchain_community`
 
-## Demo Questions: Test Performance of the Completed Application
-* How can I secure my databases?
-* How can I enforce network protection for my hosts?
-* Is there a tool I can use to scan my hosts for vulnerabilities?
 
 ## Problem 1: Create Vector database for RAG (Retrieval Augmented Generation) Functionality
 
@@ -57,6 +53,13 @@ if context:
          input_variables=["context", "question"]
      )
 ```
+
+
+## Demo Questions: Test Performance of the Completed Application
+* How can I secure my databases?
+* How can I enforce network protection for my hosts?
+* Is there a tool I can use to scan my hosts for vulnerabilities?
+
 
 ## Bonus Problems
 
