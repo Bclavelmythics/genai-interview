@@ -25,9 +25,10 @@ Generative AI focused interview problems
 * Use the HuggingFaceEmbeddings model from Langchain.
   * https://python.langchain.com/docs/integrations/providers/huggingface/#huggingfaceembeddings
 
-## Problem 2: Add RAG Functionality to Application
+## Problem 2: Add RAG Functionality to Application (app.py)
 * To run application use `streamlit run app.py`
    * The script is functional prior to completion of this problem, however no vector database is loaded
+* Add in path to db and Together API key into "User Config Section of file"
 * Modify the following section to load the database into the application
 ```python
 def initialize_vectordb():
