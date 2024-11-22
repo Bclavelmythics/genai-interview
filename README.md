@@ -42,7 +42,7 @@ def get_context(query, vectordb=None):
     
     #TODO Create code for completing semantic search on vectordb 
 ``` 
-* Modify the following section to give llm instructions for generating response. Analyze the Test Questions and the document chunked to help create prompt.
+* Modify the following section to give llm instructions for generating response. Analyze the Test Questions (at the bottom) and the document chunked to help create prompt.
 ```python
 if context:
      #TODO Once added chroma db, modify this prompt template 
