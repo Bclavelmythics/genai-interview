@@ -16,7 +16,7 @@ Generative AI focused interview problems
 
 ## Problem 1: Create Vector database for RAG (Retrieval Augmented Generation) Functionality
 
-* Modify the empty python file in `load` to chunk the provided documentation and embed the chunks into a chroma vector database. 
+* Modify the function `create_vector_db()` in `load/load_document.py` to chunk the provided documentation and embed the chunks into a chroma vector database. 
 * Carefully Analyze the document in `docs`  to chunk it in a way that best captures important information from each section.
 * Use the HuggingFaceEmbeddings model from Langchain.
   * https://python.langchain.com/docs/integrations/providers/huggingface/#huggingfaceembeddings
@@ -42,12 +42,11 @@ def get_context(query, vectordb=None):
     
     #TODO Create code for completing semantic search on vectordb 
 ``` 
-* Modify the following section to give llm instructions for generating response. Analyze the Test Questions (at the bottom) and the document chunked to help create prompt.
-
-Questions to test performance of Completed Application 
-* How can I secure my databases?
-* How can I enforce network protection for my hosts?
-* Is there a tool I can use to scan my hosts for vulnerabilities?
+* Modify the following section to give llm instructions for generating response. Analyze the Test Questions and the document chunked to help create prompt.
+  * Questions to test performance of Completed Application 
+    * How can I secure my databases?
+    * How can I enforce network protection for my hosts?
+    * Is there a tool I can use to scan my hosts for vulnerabilities?
 
 ```python
 if context:
