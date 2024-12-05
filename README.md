@@ -43,6 +43,12 @@ def get_context(query, vectordb=None):
     #TODO Create code for completing semantic search on vectordb 
 ``` 
 * Modify the following section to give llm instructions for generating response. Analyze the Test Questions (at the bottom) and the document chunked to help create prompt.
+
+Questions to test performance of Completed Application 
+* How can I secure my databases?
+* How can I enforce network protection for my hosts?
+* Is there a tool I can use to scan my hosts for vulnerabilities?
+
 ```python
 if context:
      #TODO Once added chroma db, modify this prompt template 
@@ -55,15 +61,10 @@ if context:
 ```
 
 
-## Demo Questions: Test Performance of the Completed Application
-* How can I secure my databases?
-* How can I enforce network protection for my hosts?
-* Is there a tool I can use to scan my hosts for vulnerabilities?
-
-
 ## Bonus Problems
 
 Attempt these only after completing problem 1 and 2 and if you have time.
 * Modify the script so that the llm can maintain conversation history
 * Modify the script so that the response is streamed out instead of pasted all at once
+  * By default the application will print out the entire response once generated. Try to modify it so that it streams out one character at a time.
 
