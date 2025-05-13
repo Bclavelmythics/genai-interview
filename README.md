@@ -4,14 +4,8 @@ Generative AI focused interview problems
 
 ## Prerequisites
 * Sign up on together.ai and obtain an API key
-* clone this repository
-  * `git clone https://github.com/Bclavelmythics/genai-interview.git`
-* Use python 3.11 and install requirements
-  * `pip3.11 install -r requirements.txt`
-* If installing requirements fail run the following commands instead
-     * `pip3.11 install streamlit`
-     * `pip3.11 install langchain`
-     * `pip3.11 install langchain_community`
+* Within VScode, set up a remote tunnel into the workstatino
+   * We will provide a ssh key and user
 
 
 ## Problem 1: Create Vector database for RAG (Retrieval Augmented Generation) Functionality
