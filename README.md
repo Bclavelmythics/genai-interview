@@ -4,8 +4,8 @@ Generative AI focused interview problems
 
 ## Prerequisites
 * Sign up on together.ai and obtain an API key
-* Within VScode, set up a remote tunnel into the workstatino
-   * We will provide a ssh key and user
+* Within VScode, set up a remote tunnel into the workstation
+   * We will provide the host, ssh key and user
 
 
 ## Problem 1: Create Vector database for RAG (Retrieval Augmented Generation) Functionality
